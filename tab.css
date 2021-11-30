@@ -1,0 +1,38 @@
+.tab 
+{
+  width: 600px;   /*タブの中の長さ*/
+}
+
+.tab-nav 
+{
+  display: flex;  /*要素が横並びになる*/
+}
+
+/*タブ*/
+.tab-nav-item 
+{
+  margin: 0px;                /*タブの間隔*/
+  background: rgb(238, 228, 221);         /*タブの背景*/
+  color: #000;              /*フォントの色*/
+  padding: 10px 40px;         /*タブの大きさ*/
+  text-decoration: none;      /*テキストの線の表示*/
+  border-radius:0px 0px 0 0;  /*要素の外側の角を丸める*/
+}
+
+/*選択されているタブ*/
+.tab-nav-item.is-active
+{
+  background: #fff; /*タブの背景*/
+  color: rgb(255, 153, 0);      /*フォントの色*/
+}
+
+.tab-contents 
+{
+  border: none; /*タブの中の枠線*/
+  padding: 20px;/*タブの中の文章の開始位置*/
+}
+
+.tab-contents-item 
+{
+  display: none;
+}
